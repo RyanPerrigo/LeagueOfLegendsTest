@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B59AE6D281B5D32001DCFB8 /* LeagueOfLegendsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59AE6C281B5D32001DCFB8 /* LeagueOfLegendsTestApp.swift */; };
+		4B59AE6F281B5D32001DCFB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59AE6E281B5D32001DCFB8 /* ContentView.swift */; };
+		4B59AE71281B5D32001DCFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B59AE70281B5D32001DCFB8 /* Assets.xcassets */; };
+		4B59AE74281B5D32001DCFB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B59AE73281B5D32001DCFB8 /* Preview Assets.xcassets */; };
+		4B59AE7E281B5D32001DCFB8 /* LeagueOfLegendsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59AE7D281B5D32001DCFB8 /* LeagueOfLegendsTestTests.swift */; };
+		4B59AE88281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59AE87281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.swift */; };
+		4B59AE8A281B5D32001DCFB8 /* LeagueOfLegendsTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59AE89281B5D32001DCFB8 /* LeagueOfLegendsTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B59AE7A281B5D32001DCFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B59AE61281B5D32001DCFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B59AE68281B5D32001DCFB8;
+			remoteInfo = LeagueOfLegendsTest;
+		};
+		4B59AE84281B5D32001DCFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B59AE61281B5D32001DCFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B59AE68281B5D32001DCFB8;
+			remoteInfo = LeagueOfLegendsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B59AE69281B5D32001DCFB8 /* LeagueOfLegendsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeagueOfLegendsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B59AE6C281B5D32001DCFB8 /* LeagueOfLegendsTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOfLegendsTestApp.swift; sourceTree = "<group>"; };
+		4B59AE6E281B5D32001DCFB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B59AE70281B5D32001DCFB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B59AE73281B5D32001DCFB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B59AE79281B5D32001DCFB8 /* LeagueOfLegendsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueOfLegendsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B59AE7D281B5D32001DCFB8 /* LeagueOfLegendsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOfLegendsTestTests.swift; sourceTree = "<group>"; };
+		4B59AE83281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueOfLegendsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B59AE87281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOfLegendsTestUITests.swift; sourceTree = "<group>"; };
+		4B59AE89281B5D32001DCFB8 /* LeagueOfLegendsTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOfLegendsTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B59AE66281B5D32001DCFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B59AE76281B5D32001DCFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B59AE80281B5D32001DCFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B59AE60281B5D32001DCFB8 = {
+			isa = PBXGroup;
+			children = (
+				4B59AE6B281B5D32001DCFB8 /* LeagueOfLegendsTest */,
+				4B59AE7C281B5D32001DCFB8 /* LeagueOfLegendsTestTests */,
+				4B59AE86281B5D32001DCFB8 /* LeagueOfLegendsTestUITests */,
+				4B59AE6A281B5D32001DCFB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B59AE6A281B5D32001DCFB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B59AE69281B5D32001DCFB8 /* LeagueOfLegendsTest.app */,
+				4B59AE79281B5D32001DCFB8 /* LeagueOfLegendsTestTests.xctest */,
+				4B59AE83281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B59AE6B281B5D32001DCFB8 /* LeagueOfLegendsTest */ = {
+			isa = PBXGroup;
+			children = (
+				4B59AE6C281B5D32001DCFB8 /* LeagueOfLegendsTestApp.swift */,
+				4B59AE6E281B5D32001DCFB8 /* ContentView.swift */,
+				4B59AE70281B5D32001DCFB8 /* Assets.xcassets */,
+				4B59AE72281B5D32001DCFB8 /* Preview Content */,
+			);
+			path = LeagueOfLegendsTest;
+			sourceTree = "<group>";
+		};
+		4B59AE72281B5D32001DCFB8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B59AE73281B5D32001DCFB8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B59AE7C281B5D32001DCFB8 /* LeagueOfLegendsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B59AE7D281B5D32001DCFB8 /* LeagueOfLegendsTestTests.swift */,
+			);
+			path = LeagueOfLegendsTestTests;
+			sourceTree = "<group>";
+		};
+		4B59AE86281B5D32001DCFB8 /* LeagueOfLegendsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B59AE87281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.swift */,
+				4B59AE89281B5D32001DCFB8 /* LeagueOfLegendsTestUITestsLaunchTests.swift */,
+			);
+			path = LeagueOfLegendsTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B59AE68281B5D32001DCFB8 /* LeagueOfLegendsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B59AE8D281B5D32001DCFB8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsTest" */;
+			buildPhases = (
+				4B59AE65281B5D32001DCFB8 /* Sources */,
+				4B59AE66281B5D32001DCFB8 /* Frameworks */,
+				4B59AE67281B5D32001DCFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeagueOfLegendsTest;
+			productName = LeagueOfLegendsTest;
+			productReference = 4B59AE69281B5D32001DCFB8 /* LeagueOfLegendsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B59AE78281B5D32001DCFB8 /* LeagueOfLegendsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B59AE90281B5D32001DCFB8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsTestTests" */;
+			buildPhases = (
+				4B59AE75281B5D32001DCFB8 /* Sources */,
+				4B59AE76281B5D32001DCFB8 /* Frameworks */,
+				4B59AE77281B5D32001DCFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B59AE7B281B5D32001DCFB8 /* PBXTargetDependency */,
+			);
+			name = LeagueOfLegendsTestTests;
+			productName = LeagueOfLegendsTestTests;
+			productReference = 4B59AE79281B5D32001DCFB8 /* LeagueOfLegendsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B59AE82281B5D32001DCFB8 /* LeagueOfLegendsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B59AE93281B5D32001DCFB8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsTestUITests" */;
+			buildPhases = (
+				4B59AE7F281B5D32001DCFB8 /* Sources */,
+				4B59AE80281B5D32001DCFB8 /* Frameworks */,
+				4B59AE81281B5D32001DCFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B59AE85281B5D32001DCFB8 /* PBXTargetDependency */,
+			);
+			name = LeagueOfLegendsTestUITests;
+			productName = LeagueOfLegendsTestUITests;
+			productReference = 4B59AE83281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B59AE61281B5D32001DCFB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4B59AE68281B5D32001DCFB8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4B59AE78281B5D32001DCFB8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4B59AE68281B5D32001DCFB8;
+					};
+					4B59AE82281B5D32001DCFB8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4B59AE68281B5D32001DCFB8;
+					};
+				};
+			};
+			buildConfigurationList = 4B59AE64281B5D32001DCFB8 /* Build configuration list for PBXProject "LeagueOfLegendsTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B59AE60281B5D32001DCFB8;
+			productRefGroup = 4B59AE6A281B5D32001DCFB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B59AE68281B5D32001DCFB8 /* LeagueOfLegendsTest */,
+				4B59AE78281B5D32001DCFB8 /* LeagueOfLegendsTestTests */,
+				4B59AE82281B5D32001DCFB8 /* LeagueOfLegendsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B59AE67281B5D32001DCFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B59AE74281B5D32001DCFB8 /* Preview Assets.xcassets in Resources */,
+				4B59AE71281B5D32001DCFB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B59AE77281B5D32001DCFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B59AE81281B5D32001DCFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B59AE65281B5D32001DCFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B59AE6F281B5D32001DCFB8 /* ContentView.swift in Sources */,
+				4B59AE6D281B5D32001DCFB8 /* LeagueOfLegendsTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B59AE75281B5D32001DCFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B59AE7E281B5D32001DCFB8 /* LeagueOfLegendsTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B59AE7F281B5D32001DCFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B59AE88281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.swift in Sources */,
+				4B59AE8A281B5D32001DCFB8 /* LeagueOfLegendsTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B59AE7B281B5D32001DCFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B59AE68281B5D32001DCFB8 /* LeagueOfLegendsTest */;
+			targetProxy = 4B59AE7A281B5D32001DCFB8 /* PBXContainerItemProxy */;
+		};
+		4B59AE85281B5D32001DCFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B59AE68281B5D32001DCFB8 /* LeagueOfLegendsTest */;
+			targetProxy = 4B59AE84281B5D32001DCFB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B59AE8B281B5D32001DCFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B59AE8C281B5D32001DCFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B59AE8E281B5D32001DCFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeagueOfLegendsTest/Preview Content\"";
+				DEVELOPMENT_TEAM = ZAY3HZ6DTU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppsByImantium.LeagueOfLegendsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B59AE8F281B5D32001DCFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeagueOfLegendsTest/Preview Content\"";
+				DEVELOPMENT_TEAM = ZAY3HZ6DTU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppsByImantium.LeagueOfLegendsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B59AE91281B5D32001DCFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZAY3HZ6DTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppsByImantium.LeagueOfLegendsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeagueOfLegendsTest.app/LeagueOfLegendsTest";
+			};
+			name = Debug;
+		};
+		4B59AE92281B5D32001DCFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZAY3HZ6DTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppsByImantium.LeagueOfLegendsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeagueOfLegendsTest.app/LeagueOfLegendsTest";
+			};
+			name = Release;
+		};
+		4B59AE94281B5D32001DCFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZAY3HZ6DTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppsByImantium.LeagueOfLegendsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeagueOfLegendsTest;
+			};
+			name = Debug;
+		};
+		4B59AE95281B5D32001DCFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZAY3HZ6DTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppsByImantium.LeagueOfLegendsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeagueOfLegendsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B59AE64281B5D32001DCFB8 /* Build configuration list for PBXProject "LeagueOfLegendsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B59AE8B281B5D32001DCFB8 /* Debug */,
+				4B59AE8C281B5D32001DCFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B59AE8D281B5D32001DCFB8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B59AE8E281B5D32001DCFB8 /* Debug */,
+				4B59AE8F281B5D32001DCFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B59AE90281B5D32001DCFB8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B59AE91281B5D32001DCFB8 /* Debug */,
+				4B59AE92281B5D32001DCFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B59AE93281B5D32001DCFB8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B59AE94281B5D32001DCFB8 /* Debug */,
+				4B59AE95281B5D32001DCFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B59AE61281B5D32001DCFB8 /* Project object */;
+}
