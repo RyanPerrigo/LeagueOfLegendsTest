@@ -14,6 +14,8 @@
 		4B59AE7E281B5D32001DCFB8 /* LeagueOfLegendsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59AE7D281B5D32001DCFB8 /* LeagueOfLegendsTestTests.swift */; };
 		4B59AE88281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59AE87281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.swift */; };
 		4B59AE8A281B5D32001DCFB8 /* LeagueOfLegendsTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59AE89281B5D32001DCFB8 /* LeagueOfLegendsTestUITestsLaunchTests.swift */; };
+		4B59AE97281B5DC8001DCFB8 /* Champions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B59AE96281B5DC8001DCFB8 /* Champions.json */; };
+		4B59AE9A281B9D8D001DCFB8 /* ResponseEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59AE99281B9D8D001DCFB8 /* ResponseEntities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		4B59AE83281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueOfLegendsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B59AE87281B5D32001DCFB8 /* LeagueOfLegendsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOfLegendsTestUITests.swift; sourceTree = "<group>"; };
 		4B59AE89281B5D32001DCFB8 /* LeagueOfLegendsTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOfLegendsTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B59AE96281B5DC8001DCFB8 /* Champions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Champions.json; sourceTree = "<group>"; };
+		4B59AE99281B9D8D001DCFB8 /* ResponseEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseEntities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		4B59AE60281B5D32001DCFB8 = {
 			isa = PBXGroup;
 			children = (
+				4B59AE96281B5DC8001DCFB8 /* Champions.json */,
 				4B59AE6B281B5D32001DCFB8 /* LeagueOfLegendsTest */,
 				4B59AE7C281B5D32001DCFB8 /* LeagueOfLegendsTestTests */,
 				4B59AE86281B5D32001DCFB8 /* LeagueOfLegendsTestUITests */,
@@ -94,6 +99,7 @@
 		4B59AE6B281B5D32001DCFB8 /* LeagueOfLegendsTest */ = {
 			isa = PBXGroup;
 			children = (
+				4B59AE98281B9D6D001DCFB8 /* ResponseEntities */,
 				4B59AE6C281B5D32001DCFB8 /* LeagueOfLegendsTestApp.swift */,
 				4B59AE6E281B5D32001DCFB8 /* ContentView.swift */,
 				4B59AE70281B5D32001DCFB8 /* Assets.xcassets */,
@@ -125,6 +131,14 @@
 				4B59AE89281B5D32001DCFB8 /* LeagueOfLegendsTestUITestsLaunchTests.swift */,
 			);
 			path = LeagueOfLegendsTestUITests;
+			sourceTree = "<group>";
+		};
+		4B59AE98281B9D6D001DCFB8 /* ResponseEntities */ = {
+			isa = PBXGroup;
+			children = (
+				4B59AE99281B9D8D001DCFB8 /* ResponseEntities.swift */,
+			);
+			path = ResponseEntities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B59AE97281B5DC8001DCFB8 /* Champions.json in Resources */,
 				4B59AE74281B5D32001DCFB8 /* Preview Assets.xcassets in Resources */,
 				4B59AE71281B5D32001DCFB8 /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B59AE9A281B9D8D001DCFB8 /* ResponseEntities.swift in Sources */,
 				4B59AE6F281B5D32001DCFB8 /* ContentView.swift in Sources */,
 				4B59AE6D281B5D32001DCFB8 /* LeagueOfLegendsTestApp.swift in Sources */,
 			);
